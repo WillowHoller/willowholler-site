@@ -7,7 +7,8 @@ Hosted on GitHub Pages with the custom domain www.willowholler.com (the `CNAME` 
 index.html             willowholler.com
 highground/index.html  willowholler.com/highground
 styles.css             shared styles (Direction A, "Prairie ledger")
-favicon.svg            browser tab icon
+willowholler-*.webp/png  Willow Holler emblem and tab icon
+highground-*.png         HighGround logo, wordmark (colour and light), tab icon
 404.html               page-not-found
 CNAME                  www.willowholler.com (keep this file)
 ```

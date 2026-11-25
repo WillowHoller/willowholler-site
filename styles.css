@@ -147,3 +147,34 @@ p{margin:0}
 .gf-mini{display:flex;flex-direction:column;gap:10px}
 .gf-row{display:grid;grid-template-columns:70px 1fr 56px;gap:10px;align-items:center;font-size:14px}
 .gf-row .track i{background:#1E3A2F}
+
+/* ---- Home page v3, single page (24 Nov 2026): company intro + HighGround + who we are ---- */
+.caps{font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--gold-text)}
+.dark .caps{color:#E9D9AE}
+.hero-photo{margin:0}
+.hero-photo img{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;border-radius:6px;box-shadow:0 18px 40px rgba(28,42,36,.14)}
+.duo{display:flex;flex-wrap:wrap;gap:40px 64px;align-items:flex-start}
+.duo > .l{flex:1 1 380px;min-width:0;display:flex;flex-direction:column;gap:16px}
+.duo > .r{flex:1 1 480px;min-width:0}
+.grid4{display:grid;grid-template-columns:repeat(auto-fit, minmax(min(100%, 260px), 1fr));gap:20px}
+.grid3{display:grid;grid-template-columns:repeat(auto-fit, minmax(min(100%, 320px), 1fr));gap:20px}
+.persona{background:#fff;border:1px solid var(--rule);border-radius:4px;padding:28px;display:flex;flex-direction:column;gap:10px}
+.persona h3{font-size:24px;line-height:1.2;color:var(--ink)}
+.persona p{font-size:16px;color:var(--body)}
+.ftile{background:#fff;border:1px solid var(--rule);border-radius:4px;padding:24px;display:flex;flex-direction:column;gap:8px}
+.ftile h3{font-family:var(--sans);font-size:19px;font-weight:700;color:var(--ink)}
+.ftile p{font-size:15px;color:var(--body)}
+.ticks{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:10px;color:var(--body)}
+.askbox{background:#fff;border:1px solid var(--rule-2);border-radius:6px;padding:28px 32px}
+.asklist{list-style:none;margin:0;padding:0}
+.asklist li{display:flex;gap:14px;align-items:baseline;padding:12px 0;border-top:1px solid var(--rule);font-family:var(--serif);font-size:21px;color:var(--ink)}
+.asklist li::before{content:"";flex:none;width:8px;height:8px;border-radius:50%;background:var(--gold);transform:translateY(-2px)}
+.whatif{margin-top:18px;padding-top:18px;border-top:1px solid var(--rule-2);display:flex;flex-direction:column;gap:6px}
+.trust4{display:grid;grid-template-columns:repeat(auto-fit, minmax(min(100%, 260px), 1fr));gap:28px 32px;font-size:15px;color:#E6ECE7}
+.trust4 b{display:block;font-family:var(--serif);font-weight:600;font-size:20px;color:#E9D9AE;margin-bottom:6px}
+.dark .h2{color:#fff}
+.about-emblem{flex:0 1 300px;display:flex;justify-content:center}
+.about-emblem img{width:260px;height:260px;border-radius:50%}
+.cta-col{flex:0 1 360px;min-width:0;display:flex;flex-direction:column;gap:12px}
+.cta-col .btn{justify-content:center}
+.btn.outline.white{background:#fff}

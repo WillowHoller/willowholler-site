@@ -3,17 +3,17 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Willow Holler — Straightforward tools for complex problems</title>
+  <title>Willow Holler — Straightforward tools for the people who decide</title>
   <link rel="icon" href="/favicon.ico" sizes="any">
-   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
-   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
-   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <!-- the home-screen shortcut is Willow Holler's own, and opens in the browser, so signing in to HighGround never takes it over -->
   <link rel="manifest" href="/manifest.webmanifest">
   <meta name="apple-mobile-web-app-title" content="Willow Holler">
-  <meta name="description" content="Willow Holler builds software that makes real, complex problems understandable, so the people solving them can do their best work and see real results.">
+  <meta name="description" content="Willow Holler builds straightforward software for the people who decide. Our first product, HighGround, is the living plan for a school district: priorities, every fund and progress in one place, built on your state's own data and fund rules.">
   <meta property="og:title" content="Willow Holler">
-  <meta property="og:description" content="Straightforward tools for complex problems.">
+  <meta property="og:description" content="Straightforward tools for the people who decide.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.willowholler.com/">
   <link rel="canonical" href="https://www.willowholler.com/">
@@ -24,6 +24,10 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+<!-- One page while there is one product (24 Nov 2026). When a second product arrives, move the HighGround sections
+     (#highground to #trust) to their own page and give this page product cards.
+     Site rules: no personal names, no school-board role, no real district as proof, no public demo link,
+     no mock-ups or made-up-figure illustrations, no red in graphics. Describe only what the app has built. -->
 <a class="skip" href="#main">Skip to content</a>
 
 <header class="site-head">
@@ -33,74 +37,213 @@
       <span class="brand-name">Willow Holler</span>
     </a>
     <nav class="nav" aria-label="Main">
-      <a href="#products">Products</a>
+      <a href="#highground">HighGround</a>
+      <a href="#ask">How it works</a>
+      <a href="#funds">Funds</a>
+      <a href="#trust">Security</a>
       <a href="#about">About</a>
-      <a href="#contact">Contact</a>
+      <a class="btn outline" href="https://highground.willowholler.com/" target="_blank" rel="noopener">Sign in to HighGround</a>
     </nav>
   </div>
 </header>
 
 <main id="main">
+  <!-- HERO -->
   <section class="wrap section">
     <div class="split center">
-      <div class="stack" style="gap:24px">
-        <h1 class="h1">Straightforward tools for complex problems.</h1>
-        <p class="lede">Real problems are rarely simple. Our software makes them understandable, so the people solving them can do their best work and see real results.</p>
+      <div class="stack" style="gap:22px">
+        <h1 class="h1">Straightforward tools for the people who decide.</h1>
+        <p class="lede">School boards, councils and their staff make multi-million-dollar choices from spreadsheets and static monthly reports. We build software that puts the whole picture in one place, in plain language, so you can decide, explain it and follow through.</p>
         <div class="btns" style="margin-top:8px">
-          <a class="btn" href="#products">See our products</a>
-          <a class="btn outline" href="#contact">Get in touch</a>
+          <a class="btn" href="#highground">See HighGround</a>
+          <a class="btn outline" href="mailto:hello@willowholler.com?subject=HighGround%20walkthrough">Ask for a walkthrough</a>
         </div>
       </div>
-      <figure style="margin:0;display:flex;justify-content:center;align-items:center;min-height:320px;border-left:1px solid var(--rule)">
-        <img src="willowholler-emblem.webp" width="360" height="354" alt="Willow Holler: a willow tree by a fence in rolling country" style="width:min(360px,80%);height:auto">
+      <figure class="hero-photo">
+        <img src="hero-school-sunrise.webp" width="1168" height="784" alt="A brick school at sunrise, surrounded by cornfields, with buses parked out front and fog over the farmland">
       </figure>
     </div>
   </section>
 
-  <section id="products" class="band">
+  <!-- HIGHGROUND INTRO -->
+  <section id="highground" class="wrap" style="padding-top:clamp(40px,6vw,72px);padding-bottom:clamp(40px,5vw,56px)">
+    <div class="stack" style="gap:16px">
+      <span class="caps">Our first product · school districts</span>
+      <h2 class="h2" style="font-size:clamp(32px,3.8vw,44px);max-width:18em">HighGround: one plan your board can see, test and stand behind.</h2>
+      <p class="lede" style="max-width:38em">Priorities, initiatives, every fund and the progress you've promised, in one living plan. Built on your state's own data and fund rules.</p>
+    </div>
+  </section>
+
+  <!-- VALUE BY PERSONA -->
+  <section class="band">
     <div class="wrap section stack-lg">
-      <h2 class="h2">Products</h2>
-      <div class="cards">
-        <article class="card">
-          <h3 class="h3" style="margin:0"><img src="highground-wordmark.png" alt="HighGround" width="240" height="44" style="height:44px;width:auto;display:block"></h3>
-          <span class="eyebrow" style="font-size:14px">For Iowa school districts</span>
-          <p class="body">The living plan for a school district: priorities, decisions, money and progress in one place, with Iowa’s fund rules built in. Rank what matters, see where the money runs out, fund more with what you have, and share the plan with your community.</p>
-          <div class="btns" style="margin-top:auto;padding-top:8px;gap:18px">
-            <a class="link" href="highground/">Learn about HighGround →</a>
-            <a class="link" href="https://highground.willowholler.com/" target="_blank" rel="noopener">Sign in</a>
-          </div>
-        </article>
-        <article class="card dashed">
-          <span class="eyebrow" style="font-size:14px">Coming next</span>
-          <h3 class="h3" style="font-size:26px;color:var(--muted)">More to come</h3>
-          <p class="muted">Tools for the people who lead our communities: city leaders, municipalities and the public bodies around them.</p>
-          <a class="link" href="#contact" style="margin-top:auto;padding-top:8px">Interested? Get in touch →</a>
-        </article>
+      <div class="stack" style="gap:12px">
+        <h2 class="h2" style="max-width:22em">Everyone at the table gets answers, not another spreadsheet.</h2>
+        <p class="body" style="max-width:40em">One living plan holds every goal, project and dollar. Change anything and every fund and every year updates on the spot.</p>
+      </div>
+      <div class="grid4">
+        <article class="persona"><span class="caps">Business manager</span><h3>Answer the next question without rebuilding the spreadsheet.</h3><p>Move a date, change a cost or try another funding source. Every fund and every year recalculates in seconds, with the fund rules checked.</p></article>
+        <article class="persona"><span class="caps">Superintendent</span><h3>Know the impact before you recommend it.</h3><p>See what a new hire, program or project does to the next five to ten years before it ever reaches the board.</p></article>
+        <article class="persona"><span class="caps">Board member</span><h3>Vote knowing exactly what it means.</h3><p>Compare options side by side: what each costs, what it pushes back, and whether it needs a vote or a tax change.</p></article>
+        <article class="persona"><span class="caps">Community</span><h3>Living transparency, not a once-a-year report.</h3><p>A public page that keeps up with the plan: what people asked for, what was decided and what got done.</p></article>
       </div>
     </div>
   </section>
 
-  <section class="wrap section stack-lg">
-    <h2 class="h2" style="font-size:clamp(28px,3vw,36px)">How we build</h2>
-    <div class="ledger">
-      <div class="ledger-row"><span class="k">Built for real work</span><span class="body">Each product starts from a real problem someone is living with, not a feature list.</span></div>
-      <div class="ledger-row"><span class="k">Your data stays yours</span><span class="body">You can take everything with you, any time.</span></div>
-      <div class="ledger-row"><span class="k">Plain language</span><span class="body">Software that explains itself, so you can explain your decisions to others.</span></div>
+  <!-- ASK + WHAT IF (questions match the app's built-in Ask bar) -->
+  <section id="ask">
+    <div class="wrap section duo">
+      <div class="l">
+        <span class="caps">Ask and test</span>
+        <h2 class="h2">Answers in seconds, not another spreadsheet run.</h2>
+        <p class="body">HighGround has the questions boards ask built in, answered from your own plan and books. Then change an assumption and watch every fund and year respond, before anything goes to a vote.</p>
+      </div>
+      <div class="r askbox">
+        <span class="caps" style="color:var(--forest)">Ask HighGround</span>
+        <p class="small muted" style="margin:6px 0 14px">Built-in questions, answered from your own plan and books. Each one shows up once your district has the data for it.</p>
+        <ul class="asklist">
+          <li>Can we pay for everything in our plan?</li>
+          <li>If not, how could we close the gap?</li>
+          <li>What would it take to fund the next priority?</li>
+          <li>Where do our capital funds run low, and when?</li>
+          <li>Which goals are off track?</li>
+          <li>What's waiting on a decision?</li>
+        </ul>
+        <div class="whatif">
+          <span class="caps" style="color:var(--forest)">Then try “what if”</span>
+          <p class="body">Enrollment falls faster than expected. State aid comes in lower. Salaries or construction costs rise faster. A project moves back two years. Every fund and every year updates on the spot.</p>
+        </div>
+      </div>
     </div>
   </section>
 
-  <section id="about" class="band">
-    <div class="wrap section stack" style="gap:22px">
-      <h2 class="h2">About Willow Holler</h2>
-      <p class="big-serif">We’ve seen real problems up close that lacked good solutions, and we want to offer something better. That’s why Willow Holler exists.</p>
+  <!-- RANK & FUND -->
+  <section id="rank" class="band">
+    <div class="wrap section duo">
+      <div class="l">
+        <span class="caps">Rank &amp; fund</span>
+        <h2 class="h2">See exactly where the money runs out. Then fund more.</h2>
+        <p class="body">Put every initiative in one ranked list. HighGround draws the line where the money runs out, then helps you fit more without pushing back what matters most.</p>
+      </div>
+      <div class="r">
+        <ul class="ticks">
+          <li>Fill the gaps with smaller, lower-ranked initiatives without delaying higher ones</li>
+          <li>One-move suggestions for fitting more, with what each would fund</li>
+          <li>Pick an initiative and a year to see what change would pay for it</li>
+          <li>A year-by-year view of when each item can be paid for and what has to wait</li>
+          <li>New hires and programs checked against the General Fund forecast, every year</li>
+          <li>Ways to pay compared side by side: the gap left, what each delays, and whether it needs a vote</li>
+        </ul>
+      </div>
     </div>
   </section>
 
-  <section id="contact" class="dark">
-    <div class="wrap section stack">
-      <h2 class="h2" style="font-size:clamp(30px,3.6vw,44px)">Say hello.</h2>
-      <p style="color:#D6DED8;max-width:36em">Questions about a product, an idea to share, or interested in working together.</p>
-      <div class="btns" style="margin-top:8px"><a class="btn" href="mailto:hello@willowholler.com">hello@willowholler.com</a></div>
+  <!-- FUNDS & RULES -->
+  <section id="funds">
+    <div class="wrap section duo">
+      <div class="l">
+        <span class="caps">Funds and rules</span>
+        <h2 class="h2">Built on your state's funds and rules.</h2>
+        <p class="body">Each fund is tracked on its own, with its own rules, so a project is only ever paid from money that can legally pay for it. Available in Iowa and Nebraska, with more states coming one set of rules at a time.</p>
+      </div>
+      <div class="r">
+        <ul class="ticks">
+          <li>Every capital fund year by year for the whole plan: balances, receipts, spending and debt</li>
+          <li>Existing debt, leases and ongoing spending come off the top, in dollars or as a share of receipts</li>
+          <li>Fund rules checked as you work, with the law cited, and a warning when money might be counted twice</li>
+          <li>Borrowing, leases and gifts planned alongside levies and grants</li>
+          <li>A five-year General Fund forecast with a likely range: solvency, unspent balance, spending authority and what a negotiated raise costs</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- PUBLIC DATA -->
+  <section id="data" class="band">
+    <div class="wrap section stack-lg">
+      <div class="stack" style="gap:14px"><span class="caps">Public data</span><h2 class="h2" style="max-width:22em">Starts from the state's own numbers.</h2></div>
+      <div class="grid3">
+        <div class="ftile"><h3>Set up in an afternoon</h3><p>Enter your state district number. Balances, receipts, enrollment, levies, valuations and three years of spending load from the state's published reports, then a guided setup fills in the rest.</p></div>
+        <div class="ftile"><h3>How you compare</h3><p>Flags the numbers that stand out next to districts your size, from public state data. The rest stays quiet.</p></div>
+        <div class="ftile"><h3>Forecasts you can check</h3><p>The General Fund forecast's likely range is tested against the public records of 325 districts.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRACK & SHARE -->
+  <section id="track">
+    <div class="wrap section stack-lg">
+      <div class="stack" style="gap:14px"><span class="caps">Track &amp; share</span><h2 class="h2" style="max-width:22em">From what the community asked for to what the district delivered.</h2></div>
+      <div class="grid3">
+        <div class="ftile"><h3>Priorities and initiatives</h3><p>Strategic plan, outcomes, measures, initiatives with costs and phases, and community survey results.</p></div>
+        <div class="ftile"><h3>Budget against actual, monthly</h3><p>Upload the month-end ledger and see spending by fund and initiative against the plan.</p></div>
+        <div class="ftile"><h3>Measures and results</h3><p>Targets and results over time, on or off track, linked to the priorities they serve.</p></div>
+        <div class="ftile"><h3>Board-ready, every month</h3><p>A monthly board report with what changed, decision packets and a presenting view.</p></div>
+        <div class="ftile"><h3>Improvement plans from the same data</h3><p>A full plan, improvement-plan goals or a capital improvement plan, without retyping.</p></div>
+        <div class="ftile"><h3>Everything exports</h3><p>Excel exports of the plan and its phases, and a full backup of your data at any time.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMMUNITY PAGE -->
+  <section id="community" class="band">
+    <div class="wrap section duo">
+      <div class="l">
+        <span class="caps">Community page</span>
+        <h2 class="h2">Your community sees the plan, not a PDF.</h2>
+        <p class="body">Publish the board's adopted plan to a public link that keeps up as the plan does.</p>
+      </div>
+      <div class="r">
+        <ul class="ticks">
+          <li>No account needed to view it</li>
+          <li>Drafts stay private</li>
+          <li>Proposals stay hidden until the board adopts them</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECURITY -->
+  <section id="trust" class="dark">
+    <div class="wrap section stack-lg">
+      <h2 class="h2">Safe for public money.</h2>
+      <div class="trust4">
+        <div><b>Your data is yours</b>Download all of it, any time.</div>
+        <div><b>No student data</b>Only plans, budgets and goals.</div>
+        <div><b>Roles, not one shared login</b>Admin, business manager, superintendent, editor, board and viewer.</div>
+        <div><b>Two-step sign-in</b>A code from an authenticator app plus a password.</div>
+        <div><b>Every change logged</b>Who, what, when, and the value before.</div>
+        <div><b>Board versions are locked</b>Changing the adopted plan always asks first.</div>
+        <div><b>Math checked every night</b>Against thousands of randomly built test districts and the money rules.</div>
+        <div><b>Rules, with sources</b>When a fund can't pay for something, HighGround says so and cites the law.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="wrap section duo" style="align-items:center">
+      <div class="about-emblem"><img src="willowholler-emblem.webp" width="260" height="260" alt="Willow Holler emblem: a weeping willow by a fence in rolling hills"></div>
+      <div class="l" style="flex:1 1 480px">
+        <span class="caps">Why we exist</span>
+        <h2 class="h2">Good decisions deserve better tools.</h2>
+        <p class="body">Willow Holler is an independent software company. We've watched good people on boards and councils, in districts of every size, try to make ten-year decisions with tools that couldn't show them the whole picture. They deserved better.</p>
+        <p class="body">So we build software that starts from real problems, speaks plainly and respects that the decisions are yours. School districts first, with more states and more kinds of public bodies to come.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOUNDING + CONTACT -->
+  <section id="contact" class="band">
+    <div class="wrap section duo" style="align-items:center">
+      <div class="l" style="flex:1 1 480px">
+        <h2 class="h2">Be one of our founding districts.</h2>
+        <p class="body" style="max-width:34em">We're working closely with a small group of districts as HighGround grows. You'd get hands-on setup with your own data and a real say in what we build next.</p>
+      </div>
+      <div class="cta-col">
+        <a class="btn" href="mailto:hello@willowholler.com">Email us</a>
+        <a class="btn outline white" href="mailto:hello@willowholler.com?subject=HighGround%20walkthrough">Ask for a walkthrough</a>
+      </div>
     </div>
   </section>
 </main>
@@ -108,7 +251,7 @@
 <footer class="site-foot">
   <div class="wrap">
     <span>Willow Holler · Iowa</span>
-    <nav aria-label="Footer"><a href="highground/">HighGround</a><a href="https://highground.willowholler.com/" target="_blank" rel="noopener">HighGround sign in</a><a href="mailto:hello@willowholler.com">hello@willowholler.com</a></nav>
+    <nav aria-label="Footer"><a href="https://highground.willowholler.com/" target="_blank" rel="noopener">Sign in to HighGround</a><a href="mailto:hello@willowholler.com">hello@willowholler.com</a></nav>
   </div>
 </footer>
 </body>
